@@ -14,17 +14,18 @@
   <!-- <button v-on:click="$router.push('/login')">Login</button> -->
   <router-view> </router-view>
 
-
+  <Api/>
 
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import Api from './components/Api.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Api
   }
 }
 </script>
